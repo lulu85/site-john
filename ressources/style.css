@@ -1,0 +1,44 @@
+
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 1280px;
+    background-color: rgb(63, 88, 197);
+
+}
+
+.body{
+    display: flex;
+    flex-wrap: wrap;     
+    align-self: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    height: 480px;
+    background-color: azure;
+    border-radius: 30px;
+   
+}
+.center-img{
+    display: flex;
+    align-items: center;
+    
+}
+img{
+    border-radius: 30px;
+}
+.center-text{
+    display: flex;
+    flex-flow: column wrap;
+    
+}
+div i{
+    font-size: 200%;
+    color: rgb(165, 42, 138);
+}
